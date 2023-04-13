@@ -71,8 +71,6 @@ export function AddCartPopup({ data }) {
 
     addCartLocalData.push(productInfo);
     localStorage.setItem('addCart', JSON.stringify(addCartLocalData));
-
-    // console.log(JSON.parse(localStorage.getItem('addCart')));
   };
   return (
     <div className={styles.cartPopupBackground}>
