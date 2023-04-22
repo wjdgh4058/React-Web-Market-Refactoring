@@ -29,7 +29,6 @@ export function Accordion({ data }) {
   // 유형 데이터 불러오기
   const typeData = [bobLionOnly_data];
 
-  // const [categorySelectData, setCategorySelectData] = useRecoilState();
   const [categorySelectData, setCategorySelectData] = useState([]);
   const [brandSelectData, setBrandSelectData] = useState([]);
   const [priceSelectData, setPriceSelectData] = useState([]);
