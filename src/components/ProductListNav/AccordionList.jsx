@@ -76,11 +76,6 @@ export function AccordionList({
 
   return (
     <li className={`${styles.accordionList} ${modalStyle}`}>
-      {/* <a
-        className={`.willRouter ${styles.accordionListItem}`}
-        href="#"
-        
-      > */}
       <button
         className={styles.accordionListItemcheckButton}
         type="button"
