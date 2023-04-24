@@ -84,7 +84,6 @@ export function AccordionList({
         <img
           alt="해당 리스트 체크하는 버튼"
           src={selectData.includes(name) ? click_check_on : click_check_off}
-          // src={check}s
         ></img>
         <span
           ref={hoverSpan}
