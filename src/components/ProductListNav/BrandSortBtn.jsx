@@ -5,7 +5,6 @@ export function BrandSortBtn({ data, setSortData }) {
   const nameSortBtn = useRef();
   const productSortBtn = useRef();
   const handleChangeData = (sortName) => {
-    // sort === 'name' ? setSortData(data[0]) : setSortData(data[1]);
     if (sortName === 'name') {
       setSortData(data[0]);
       nameSortBtn.current.style.color = 'rgb(161, 95, 4)';
