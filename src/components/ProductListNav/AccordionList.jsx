@@ -39,7 +39,6 @@ export function AccordionList({
     // 체크 버튼이 활성화 될때 값이 배열에 없으면 추가하고 체크버튼이 비활성화 될때 해당 값을 삭제해 준다.
     if (!selectData.includes(name)) {
       selectData.push(name);
-      // setSelectData((prev) => [...prev, name]);
     } else {
       const index = selectData.indexOf(name);
       selectData.splice(index, 1);
