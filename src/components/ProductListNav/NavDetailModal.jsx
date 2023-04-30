@@ -11,7 +11,6 @@ export function NavDetailModal({
   listName,
   setSortData,
   renderData,
-  // modalVisible,
   setModalVisible,
 }) {
   const [accordionModal, setAccordionModal] =
