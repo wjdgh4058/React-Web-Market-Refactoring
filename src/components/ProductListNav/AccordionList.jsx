@@ -49,7 +49,6 @@ export function AccordionList({
       //       return item;
       //     }
       //   });
-      // });
     }
 
     console.log(selectData);
