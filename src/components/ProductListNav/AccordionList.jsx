@@ -93,7 +93,6 @@ export function AccordionList({
         </span>
         <span className={styles.accordionListItemCount}>{count}</span>
       </button>
-      {/* </a> */}
     </li>
   );
 }
