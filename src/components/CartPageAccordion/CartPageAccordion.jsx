@@ -10,7 +10,6 @@ import { cartTotalSeletState } from '@/@atom/cartPage/cartTotalSeletState';
 import styles from './CartPageAccordion.module.scss';
 
 export function CartPageAccordion({ data }) {
-  // console.log(data);
   // 냉장 식품 선별
   let refrigerated = [];
   // 냉동 식품 선별
