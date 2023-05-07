@@ -82,7 +82,6 @@ export function CartPageAccordion({ data }) {
         <ProductSelectCtrl
           cartData={data}
           // checkCount={checkTotalCount}
-          // setCheckTotalCount={setCheckTotalCount}
         />
       </div>
     );
