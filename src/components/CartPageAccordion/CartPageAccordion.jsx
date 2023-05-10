@@ -56,7 +56,6 @@ export function CartPageAccordion({ data }) {
         <ProductSelectCtrl
           cartData={data}
           // checkCount={checkTotalCount}
-          // setCheckTotalCount={setCheckTotalCount}
         />
         {refrigerated.length > 0 ? (
           <CartPageSet
@@ -79,10 +78,7 @@ export function CartPageAccordion({ data }) {
             storingWayImg={normalImg}
           />
         ) : null}
-        <ProductSelectCtrl
-          cartData={data}
-          // checkCount={checkTotalCount}
-        />
+        <ProductSelectCtrl cartData={data} />
       </div>
     );
   }
