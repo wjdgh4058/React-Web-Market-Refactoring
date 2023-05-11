@@ -53,10 +53,7 @@ export function CartPageAccordion({ data }) {
   } else {
     return (
       <div>
-        <ProductSelectCtrl
-          cartData={data}
-          // checkCount={checkTotalCount}
-        />
+        <ProductSelectCtrl cartData={data} />
         {refrigerated.length > 0 ? (
           <CartPageSet
             data={refrigerated}
