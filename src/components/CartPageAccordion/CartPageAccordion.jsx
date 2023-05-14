@@ -43,10 +43,7 @@ export function CartPageAccordion({ data }) {
           장바구니에 담긴 상품이 없습니다.
         </div>
 
-        <ProductSelectCtrl
-          cartData={data}
-          // checkCount={checkTotalCount}
-        />
+        <ProductSelectCtrl cartData={data} />
       </div>
     );
   } else {
