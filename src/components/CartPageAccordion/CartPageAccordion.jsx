@@ -35,10 +35,7 @@ export function CartPageAccordion({ data }) {
   if (!data || data.length < 1) {
     return (
       <div>
-        <ProductSelectCtrl
-          cartData={data}
-          // checkCount={checkTotalCount}
-        />
+        <ProductSelectCtrl cartData={data} />
         <div className={styles.nonAddCartProduct}>
           장바구니에 담긴 상품이 없습니다.
         </div>
