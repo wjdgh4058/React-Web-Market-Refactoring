@@ -25,7 +25,6 @@ export function CartPageAccordion({ data }) {
     roomTemperature = storingWaySort(data, '상온');
   }
 
-  // 선택된 상품 개수 관리
   // const [checkTotalCount, setCheckTotalCount] =
   //   useRecoilState(cartTotalSeletState);
   // useEffect(() => {
