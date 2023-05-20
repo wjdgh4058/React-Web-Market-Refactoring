@@ -25,7 +25,6 @@ export function CartPageAccordion({ data }) {
     roomTemperature = storingWaySort(data, '상온');
   }
 
-  //   useRecoilState(cartTotalSeletState);
   // useEffect(() => {
   //   setCheckTotalCount(data.length);
   // }, data);
