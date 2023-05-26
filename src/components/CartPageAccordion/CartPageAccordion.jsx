@@ -25,8 +25,6 @@ export function CartPageAccordion({ data }) {
     roomTemperature = storingWaySort(data, '상온');
   }
 
-  // }, data);
-  console.log(frozen);
   if (!data || data.length < 1) {
     return (
       <div>
