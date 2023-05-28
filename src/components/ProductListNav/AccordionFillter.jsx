@@ -14,7 +14,6 @@ export function AccordionFillter({
 }) {
   const checkReset = useRecoilValue(productCheckResetState);
   const resetBtn = useRef();
-  // const [resetBtnData, setResetBtnData] = useRecoilState(productResetBtnState);
   const [accordionModal, setAccordionModal] =
     useRecoilState(accordionModalState);
 
