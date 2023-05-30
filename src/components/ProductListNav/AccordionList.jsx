@@ -15,7 +15,6 @@ export function AccordionList({
   count,
   selectData,
   listName,
-  setSelectData,
   modalStyle,
 }) {
   const [btnToggle, setBtnToggle] = useState(false);
