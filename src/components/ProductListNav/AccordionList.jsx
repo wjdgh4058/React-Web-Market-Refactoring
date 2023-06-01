@@ -41,7 +41,6 @@ export function AccordionList({
     } else {
       const index = selectData.indexOf(name);
       selectData.splice(index, 1);
-      // setSelectData((prev) => {
       //   return prev.filter((item) => {
       //     if (item !== name) {
       //       console.log(selectData);
