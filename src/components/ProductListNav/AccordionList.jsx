@@ -41,7 +41,6 @@ export function AccordionList({
     } else {
       const index = selectData.indexOf(name);
       selectData.splice(index, 1);
-      //   });
     }
 
     console.log(selectData);
