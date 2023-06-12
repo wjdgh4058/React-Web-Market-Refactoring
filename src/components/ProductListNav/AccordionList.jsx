@@ -1,7 +1,7 @@
 import click_check_on from '@/../public/ProductListImage/Check_on.svg';
 import click_check_off from '@/../public/ProductListImage/Check_off.svg';
 import styles from './ProductListNav.module.scss';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef } from 'react';
 
 import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
 import { productCheckResetState } from '../../@atom/accordion/productCheckResetState';
