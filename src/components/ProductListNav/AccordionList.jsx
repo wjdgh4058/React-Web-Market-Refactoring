@@ -3,7 +3,7 @@ import click_check_off from '@/../public/ProductListImage/Check_off.svg';
 import styles from './ProductListNav.module.scss';
 import { useState, useRef } from 'react';
 
-import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
+import { useRecoilState, useSetRecoilState } from 'recoil';
 import { productCheckResetState } from '../../@atom/accordion/productCheckResetState';
 import { accordionModalState } from '@/@atom/accordion/accordionModalState';
 import { categorySelectState } from '@/@atom/accordion/categorySelectState';
