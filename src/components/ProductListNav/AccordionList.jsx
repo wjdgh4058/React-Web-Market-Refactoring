@@ -21,9 +21,6 @@ export function AccordionList({
   const hoverSpan = useRef();
   const listCheckReset = useSetRecoilState(productCheckResetState);
 
-  const [accordionModal, setAccordionModal] =
-    useRecoilState(accordionModalState);
-
   const handleEnter = () => {
     hoverSpan.current.style.color = 'rgb(161, 95, 4)';
   };
