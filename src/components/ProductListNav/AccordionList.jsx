@@ -40,7 +40,6 @@ export function AccordionList({
       selectData.splice(index, 1);
     }
 
-    console.log(selectData);
     const classificationData = selectData.slice();
 
     if (listName === '카테고리') {
