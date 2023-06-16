@@ -2,7 +2,7 @@ import { AccordionSet } from './AccordionSet';
 import { AccordionFillter } from './AccordionFillter';
 import styles from './ProductListNav.module.scss';
 
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 
 import { many_product_sort, name_sort, priceSort } from '@/utils';
 import { includeSort } from '@/utils/product_list/includeSort';
