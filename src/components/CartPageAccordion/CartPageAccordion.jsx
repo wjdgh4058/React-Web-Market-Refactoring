@@ -1,5 +1,4 @@
 import { storingWaySort } from '@/utils/storingWay/storingWaySort';
-import { useEffect } from 'react';
 import { CartPageSet } from './CartPageSet';
 import { ProductSelectCtrl } from './ProductSelectCtrl';
 import refrigeratedImg from '@/../public/icons/web-icons/Refrigerated.svg';
