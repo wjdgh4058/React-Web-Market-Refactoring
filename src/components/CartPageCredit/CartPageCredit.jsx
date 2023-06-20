@@ -1,7 +1,7 @@
 import styles from './CartPageCredit.module.scss';
 import serchIcon from '@/../public/icons/web-icons/Search.svg';
 import { useRecoilState } from 'recoil';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { selectTotalPriceState } from '@/@atom/cartPage/selectTotalPriceState';
 import { changePriceNumToStringNoWon } from '@/utils/priceNumberToStringNoWon';
 import { currentUserState } from '@/@atom/user/currentUserState';
