@@ -5,7 +5,6 @@ import { useState, useRef } from 'react';
 
 import { useSetRecoilState } from 'recoil';
 import { productCheckResetState } from '../../@atom/accordion/productCheckResetState';
-import { accordionModalState } from '@/@atom/accordion/accordionModalState';
 import { categorySelectState } from '@/@atom/accordion/categorySelectState';
 import { brandSelectState } from '@/@atom/accordion/brandSelectState';
 
