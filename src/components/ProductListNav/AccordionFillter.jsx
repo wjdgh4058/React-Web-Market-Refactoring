@@ -1,5 +1,5 @@
 import resetButton from '@/../public/ProductListImage/resetButton.svg';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
 import { productCheckResetState } from '@/@atom/accordion/productCheckResetState';
 import styles from './ProductListNav.module.scss';
