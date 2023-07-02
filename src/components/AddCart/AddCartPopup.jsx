@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { useRecoilState, useSetRecoilState } from 'recoil';
+import { useSetRecoilState } from 'recoil';
 import { cartPopupVisibleState } from '@/@atom/addCartPopup/cartPopupVisibleState';
 import styles from './AddCartPopup.module.scss';
 
