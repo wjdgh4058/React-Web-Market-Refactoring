@@ -4,7 +4,6 @@ import { useRecoilState } from 'recoil';
 import { selectTotalPriceState } from '@/@atom/cartPage/selectTotalPriceState';
 import { changePriceNumToStringNoWon } from '@/utils/priceNumberToStringNoWon';
 import { currentUserState } from '@/@atom/user/currentUserState';
-import { useReadData } from '@/firebase/firestore';
 
 export function CartPageCredit() {
   let cartLocalData = [];
