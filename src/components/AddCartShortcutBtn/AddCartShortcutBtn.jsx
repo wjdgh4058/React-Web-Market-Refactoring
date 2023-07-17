@@ -13,7 +13,6 @@ export default function AddCartShortcutBtn(props) {
 
   const handleAddCartPopup = useCallback(() => {
     setCurrentProductState(content);
-    // console.log(content);
     setter(true);
   }, []);
 
