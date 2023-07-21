@@ -18,7 +18,6 @@ export default function AddCartShortcutBtn(props) {
 
   return (
     <button
-      // style={'z'}
       className="AddCartShortcutBtn"
       type="button"
       onClick={handleAddCartPopup}
