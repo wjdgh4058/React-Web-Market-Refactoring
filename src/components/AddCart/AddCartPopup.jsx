@@ -55,7 +55,6 @@ export function AddCartPopup({ data }) {
     //   docId: data.id,
     //   count: productCount,
     // };
-    // 로컬에 있는 객체 데이터 중복 여부 확인
     const addCartLocalData = JSON.parse(localStorage.getItem('addCart')) || [];
 
     let isduplicate = false;
