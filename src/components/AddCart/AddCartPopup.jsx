@@ -52,7 +52,6 @@ export function AddCartPopup({ data }) {
     productInfo.count = productCount;
     setCartPopupVisible(false);
     // const productInfo = {
-    //   docId: data.id,
     const addCartLocalData = JSON.parse(localStorage.getItem('addCart')) || [];
 
     let isduplicate = false;
